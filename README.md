@@ -36,13 +36,13 @@ UI层
 >
 > truffle migrate --reset --network ganache
 
-![1545828831170](C:\Users\lenovo\AppData\Roaming\Typora\typora-user-images\1545828831170.png)
+![1545828831170](F:\Truffle-vue\pictures\1545828831170.png)
 
 > npm install
 >
 > npm run dev
 
-![1545828902521](C:\Users\lenovo\AppData\Roaming\Typora\typora-user-images\1545828902521.png)
+![1545828902521](F:\Truffle-vue\pictures\1545828902521.png)
 
 #### 使用
 
