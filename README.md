@@ -36,29 +36,29 @@ UI层
 >
 > truffle migrate --reset --network ganache
 
-![1545828831170](F:\Truffle-vue\pictures\1545828831170.png)
+![1545828831170](https://github.com/CurryYuan/Truffle-vue/blob/master/pictures/1545828831170.png?raw=true)
 
 > npm install
 >
 > npm run dev
 
-![1545828902521](F:\Truffle-vue\pictures\1545828902521.png)
+![1545828902521](https://github.com/CurryYuan/Truffle-vue/blob/master/pictures/1545828902521.png?raw=true)
 
 #### 使用
 
 首页可以查看自己的合约地址，账户余额和放贷人。
 
-![1545829840760](C:\Users\lenovo\AppData\Roaming\Typora\typora-user-images\1545829840760.png)
+![1545829840760](https://github.com/CurryYuan/Truffle-vue/blob/master/pictures/1545829840760.png?raw=true)
 
 点击添加按钮可以添加放贷人
 
-![1545829689511](C:\Users\lenovo\AppData\Roaming\Typora\typora-user-images\1545829689511.png)
+![1545829689511](https://github.com/CurryYuan/Truffle-vue/blob/master/pictures/1545829689511.png?raw=true)
 
 点击borrow按钮可以向放贷人借钱
 
-![1545829907831](C:\Users\lenovo\AppData\Roaming\Typora\typora-user-images\1545829907831.png)
+![1545829907831](https://github.com/CurryYuan/Truffle-vue/blob/master/pictures/1545829907831.png?raw=true)
 
 借钱成功，可以看到自己的余额增加了，放贷人的可放贷余额减少了
 
-![1545829970787](C:\Users\lenovo\AppData\Roaming\Typora\typora-user-images\1545829970787.png)
+![1545829970787](https://github.com/CurryYuan/Truffle-vue/blob/master/pictures/1545829970787.png?raw=true)
 
