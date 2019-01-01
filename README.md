@@ -34,7 +34,7 @@ UI层
 
 在remix上进行合约的测试
 
-![1546347738172](F:\Truffle-vue\pictures\2.png)
+![1546347738172](https://github.com/CurryYuan/Truffle-vue/blob/master/pictures/2.png?raw=true)
 
 合约提供了一些接口，前面两个红色的会改变区块链状态，后面的只是查询信息，不改变状态
 
@@ -46,7 +46,7 @@ GetBalance 获得参数地址addr的账户余额。
 
 GetLendersMoney  获得放贷人参数地址 addr的剩余放贷金额。
 
-![1546347943437](F:\Truffle-vue\pictures\1.jpg)
+![1546347943437](https://github.com/CurryYuan/Truffle-vue/blob/master/pictures/1.jpg?raw=true)
 
 也可以使用truffle test编写合约进行测试。
 
