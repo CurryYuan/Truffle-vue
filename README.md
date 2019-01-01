@@ -18,17 +18,37 @@
 
 #### 实现
 
-合约层loan.sol
+合约层 loan.sol
 
 实现了贷款平台的基本逻辑，贷款人和放贷人信息的保存，交易的执行，以及数据的获取。
 
-交互层loan.js
+交互层 loan.js
 
 通过web3.js接口实现合约的初始化和接口的调用，并将其封装为js函数
 
 UI层
 
 前端使用vue框架，进行数据的展示和与合约的交互
+
+#### 测试
+
+在remix上进行合约的测试
+
+![1546347738172](F:\Truffle-vue\pictures\2.png)
+
+合约提供了一些接口，前面两个红色的会改变区块链状态，后面的只是查询信息，不改变状态
+
+AddLenders 可以添加放贷人信息，接受的参数是放贷人地址a，贷款额度b，贷款人名称s。
+
+LendMoney 是借款的函数，接受的参数是借款人地址和借款金额。
+
+GetBalance 获得参数地址addr的账户余额。
+
+GetLendersMoney  获得放贷人参数地址 addr的剩余放贷金额。
+
+![1546347943437](F:\Truffle-vue\pictures\1.jpg)
+
+也可以使用truffle test编写合约进行测试。
 
 #### 运行
 
@@ -50,7 +70,7 @@ UI层
 
 ![1545829840760](https://github.com/CurryYuan/Truffle-vue/blob/master/pictures/1545829840760.png?raw=true)
 
-点击添加按钮可以添加放贷人
+点击添加按钮可以添加放贷人，添加后首页会有相应变化
 
 ![1545829689511](https://github.com/CurryYuan/Truffle-vue/blob/master/pictures/1545829689511.png?raw=true)
 
